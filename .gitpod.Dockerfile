@@ -2,4 +2,4 @@
 FROM gitpod/workspace-full-vnc
 
 # Install custom tools, runtime, etc.
-RUN sudo apt install ubuntu-release-upgrader-core; do-release-upgrade
+RUN sudo apt-get -y update; sudo apt-get -y upgrade
