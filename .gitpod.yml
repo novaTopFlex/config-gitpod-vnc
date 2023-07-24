@@ -1,4 +1,4 @@
-image: gitpod/workspace-full-vnc
+image: novatopflex/config-gitpod-vnc
 ports:
   - port: 5900
     onOpen: ignore
